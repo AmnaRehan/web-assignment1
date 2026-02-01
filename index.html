@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMNA REHAN</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark">
+    <header class="header">
+        <div class="profile">
+            <img src="images/user.png" alt="Profile Photo">
+            <div>
+                <h1>Amna Rehan</h1>
+                <p>Computer Science Student</p>
+            </div>
+        </div>
+        <button id="themeToggle">🔆</button>
+    </header>
+    <main class="container">
+        <section class="section">
+            <h2>About Me</h2>
+            <p>
+                Motivated computer science student with strong interest in web development.
+                Passionate about building clean, responsive, and user friendly interfaces.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <strong>BS Computer Science</strong><br>
+                    FAST NU (2023 – Present)
+                </li>
+                <li>
+                    <strong>Alevels (Pre-Engineering)</strong><br>
+                    Lahore Grammar School (2021 – 2023)
+                </li>
+                <li>
+                    <strong>Olevels</strong><br>
+                    Lahore Grammar School (2018 – 2021)
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>SQL</span>
+                <span> C++/C</span>
+                 <span>Git & GitHub</span>
+                 <span>React</span>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Experience / Projects</h2>
+            <ul>
+                <li>
+                    <strong>LandIT (JavaScript)</strong><br>
+                    AI-powered interview preparation platform focused on improving candidate confidence and usability.
+                </li>
+                <li>
+                    <strong>Athenix AI (Telescript)</strong><br>
+                    AI model designed to help users create personalized workout routines and diet plans.
+                </li>
+                <li>
+                    <strong>Personal Portfolio Website (HTML, CSS, JavaScript)</strong><br>
+                    Developed a responsive personal portfolio website to showcase projects and skills.
+                </li>
+                <li>
+                    <strong>LUXE (TypeScript)</strong><br>
+                    A modern, responsive e-commerce website for a luxury jewelery brand.
+                </li>
+                <li>
+                    <strong>VOXAID (Python)</strong><br>
+                    NLP-based mental health chatbot providing support and resources to users.
+                </li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:amnarehan.2665@gmail.com">amnarehan.2665@gmail.com</a></p>
+            <p>Phone: <a href="tel:+923475875868">+92-347-5875868</a></p>
+            <p>GitHub: <a href="https://github.com/AmnaRehan" target="_blank">github.com/AmnaRehan</a></p>
+        </section>
+
+        <div class="download">
+            <a href="Amna_Rehan_CV (2).pdf" class="btn">Download CV (PDF)</a>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Amna Rehan | CV Website</p>
+    </footer>
+
+    <script>
+        const toggle = document.getElementById("themeToggle");
+        const body = document.body;
+
+        toggle.addEventListener("click", () => {
+            body.classList.toggle("dark");
+            body.classList.toggle("light");
+            toggle.textContent = body.classList.contains("dark") ? "🔆" : "🌙";
+        });
+    </script>
+
+</body>
+</html>
